@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> */
+
+
+.App{
+    padding: 0.2%;
+    width: auto;
+    height: 100rem;
+    background-color: #1f1f1f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+   background-image: linear-gradient(to left, #1f1f1f,#1f1f1f,#110e0e,#1d1b1b,#1d1b1b,#1e1919,#1e1c1c);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.2);
+
 }
+
+.my-log{
+    width: 10%;
+    height: 14vh;
+}
+
+.nav-img{
+    width: 100%;
+    height: 10vh;
+    border-radius: 50%;
+    margin: 4px 20px 0px 40px;
+    border: solid 3px #4a4848;
+
+}
+
+
+.links{
+    display: flex;
+    margin:  0px  30px 40px 33%;
+    text-decoration: #f0ecec;
+}
+
+li{
+    list-style-type: none;
+    margin: 12px;
+    padding: 2px;
+}
+a{
+    color: 	#FFFFFF;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e71414;
+    font-size: 13.5px;
+    transition-duration: 2s;
+}
+
+.hire_mebotto{
+    width: 12%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.2);
+
+}
+
+
+.hire_mebotto{
+    width: 90%;
+    height: 10vh;
+}
+
+.log1{
+    color: red;
+    background-color: rebeccapurple;
+}
+button{
+    margin: 20px 0px 0px 60px;
+    width:40% ;
+    height: 5vh;
+    font-size: 12px;
+    color: #e71414;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #272727;
+    border: none;
+    border-radius: 4%;
+}
+
+
+button:hover{
+    font-size: 13px;
+    height: 6vh;
+    background: #4a4848;
+}
+
+/* .h1_name{
+    color: #FFFFFF;
+} */
+
+
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    background-color: #090378;
+    height: 70vh;
+    padding: 10px 10px 10% 5%;
+    margin: 0px  10px  40px 30px;
+}
+
+.improduction{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70vh;
+    margin: 0% 2% 0% 5%;
+    background-color: #e71414;
+}
+
+.dev_greet{
+    width: 100%;
+    height: 40vh;
+    background-color: #0ea9d3;
+
+}
+
+.pic_me{
+    margin-left: 10%;
+    width:35% ;
+    height: 60vh;
+    background-color: #07cc49;
+}
+
+
+
+
