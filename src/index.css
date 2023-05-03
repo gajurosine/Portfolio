@@ -3,23 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> */
 
 
 .App{
     padding: 0.2%;
     width: auto;
     height: 100rem;
-    background-color: #1f1f1f;
+       background-color: #1a1b1d;
 }
 
 .navbar{
-   background-image: linear-gradient(to left, #1f1f1f,#1f1f1f,#110e0e,#1d1b1b,#1d1b1b,#1e1919,#1e1c1c);
     width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: row;
     padding: 25px;
+    background-color: #1a1b1d;
     box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.2);
 
 }
@@ -110,36 +109,115 @@ button:hover{
 
 .contents{
     display: flex;
+    width: 100%;
     flex-direction: row;
-    background-color: #090378;
-    height: 70vh;
-    padding: 10px 10px 10% 5%;
-    margin: 0px  10px  40px 30px;
+    height: 90vh;
+    padding: 15px 10px 0% 7%;
+    background-color: #1a1b1d;
 }
 
 .improduction{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 70vh;
-    margin: 0% 2% 0% 5%;
-    background-color: #e71414;
+    width: 42%;
+    height: 78vh;
 }
+
 
 .dev_greet{
-    width: 100%;
-    height: 40vh;
-    background-color: #0ea9d3;
-
+    padding: 40px;
+    height: 30rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #1a1b1d;
+    box-shadow: 5px 5px 15px 10px #1c1c1c;
 }
+
+
+
+.dev_greet:hover{
+    box-shadow: 5px 5px 15px 10px #282727;
+}
+
+
+
+.title{
+    padding-top: 40px;
+    color: #f0ecec;
+    font-size: 40px;
+}
+
+.user{
+     width: 4rem;
+     height: 8vh;
+     border-radius: 50%;
+     padding: 10px 0px 0px 10px ;
+     background-color: #E60022;
+     box-shadow: 1px 1px 5px 12px rgb(63, 23, 30)  ;
+}
+
+
+.fiuser-icon{
+    color: #efeaea;
+    font-size: 2.5rem;
+}
+
+.user-info{
+    padding: 20px;
+    margin: 50px 0px 0px 0px ;
+}
+
+
+.info-icon{
+    color:#E60022;
+    font-size:25px ;
+    margin-right:3%;
+}
+
+.icon-desc{
+    font-size:20px;
+}
+
+
+.downlods-butto{
+    height: 10rem;
+    margin: 4% 0% 0% 0%;
+    text-align: center;
+    display: flex;
+    background-color: #1a1b1d;
+    box-shadow: 5px 5px 15px 10px #1c1c1c;
+}
+
+
+.downlods-butto:hover{
+    box-shadow: 5px 5px 15px 10px #282727;
+}
+
+.contactme{
+    margin-top: 30px;
+    color: #e71414;
+    font-size: 15px;
+    width: 10rem;
+     height: 8vh;  
+     border-radius: 10px;  
+}
+
+.contactme:hover{
+    color: rgb(136, 34, 132);
+    background-color: #2f2d2d;
+}
+
 
 .pic_me{
-    margin-left: 10%;
-    width:35% ;
-    height: 60vh;
-    background-color: #07cc49;
+    text-align: center;
+    margin-left: 5%;
+    width:50%;
+    height: 78vh;
+    border-radius: 10px;
+    background-color: #1e2125;
+    box-shadow: 5px 5px 15px 10px #1c1c1c;
 }
 
-
-
-
+img{
+    width: 100%;
+}
