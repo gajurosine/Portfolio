@@ -8,7 +8,7 @@
 .App{
     padding: 0.2%;
     width: auto;
-    height: 100rem;
+    height: 200rem;
        background-color: #1a1b1d;
 }
 
@@ -233,10 +233,96 @@ img{
 
 
 .myExperience{
-
-    width: 100%;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height:80vh;
-    background-color: #485f8c;
+    margin-left: 9%;
+    border-radius: 10px;
+    
+    /* background-color: #1c2a46; */
+    
+}
+
+.dev1{
+    display: flex;
+    flex-direction: row;
+}
+.EX-content{
+  margin: 12px;
+  padding: 20px;
+  width: auto;
+  box-shadow: 5px 5px 15px 10px #1a1919;
+  height: 25vh;
+  display: flex; 
+  flex-direction: column;
+
+}
+
+.years{
+    color: #e71414;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.para-exp{
+text-align: center;
+font-size: 50px;
+color: #FFFFFF;
+font-family: sans-serif;
+font-weight: bold;
+margin: 20px;
+
 }
 
 
+.my-experience{
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 5px 5px 15px 10px #1a1919;
+    flex-direction: row;
+    width: auto;
+    height: 35vh;
+}
+
+
+.develop-img{
+    margin: 10px 0px 13px 20px;
+    width: 20%;
+    border-radius: 8px;
+    height: 30vh;
+    /* background-color: rgb(13, 186, 212); */
+}
+
+.exp-desc{
+  padding-top: 40px;
+    margin: 10px 0px 13px 20px;
+    width: 15%;
+    border-radius: 8px;
+    height: 30vh;
+    /* background-color: rgb(16, 253, 186); */
+}
+
+.tit-exp{
+    color: #faf7f7;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.exp-develop{
+    padding-top: 27px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.exp-butto{
+    width: 15%;
+    text-align: center;
+    margin: 40px 0px 10px 40%;
+}
