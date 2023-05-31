@@ -16,11 +16,11 @@ function AIM(props) {
 
     return (
         <div className='contents'>
-            <div className='improduction'>
+            <div className='introduction'>
                 <div className='dev_greet'>
                     <div className='user'> <FiUser  className='fiuser-icon'/></div>
-                    <h2 className='title' >Hi , I'm <span style={{color : '#e71414', fontSize:'40px' }} >Rosine</span></h2>
-                    <p  style={{color:'#ffffff' ,fontSize:'20px' }}> Web design and  web developer  working at  my company</p>
+                    <h2 className='title' >Hi , I'm <span style={{color : '#e71414', fontSize:'43px' }} >Rosine</span></h2>
+                    <p  style={{color:'#ffffff' ,fontSize:'25px' }}> Web design and  web developer  working at  my company</p>
                     <div className='user-info'>
                         <div className='info'>
                             <FiFile className='info-icon'/>

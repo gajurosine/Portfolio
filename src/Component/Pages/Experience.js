@@ -4,7 +4,7 @@ import scie from '../../Asset/images/back.avif'
 import robot from '../../Asset/images/code.avif'
 function Experience(props) {
     return (
-        
+        <div className='main-experience'>
         <div className='myExperience'>
      <div className='EX-content'>
     <h1 className='years'>OVER 3 YEARS OF EXPERIENCE</h1>
@@ -52,12 +52,8 @@ function Experience(props) {
             <div className='exp-butto'><button>CONTACT</button></div>
        </div>
        
-        </div>
-
-
-
-     
-
+        </div>     
+</div>
 
 
 
