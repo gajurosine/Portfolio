@@ -1,5 +1,7 @@
 import React from 'react';
-import codes from '../../Asset/images/code.avif'
+import codes from '../../Asset/images/code3.avif'
+import scie from '../../Asset/images/back.avif'
+import robot from '../../Asset/images/code.avif'
 function Experience(props) {
     return (
         
@@ -24,7 +26,7 @@ function Experience(props) {
 
        <div className='my-experience'>
         <div className='develop-img'>
-        <img src={codes} alt='devolop experience' className='img_devops' />
+        <img src={scie} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2023-Presents</h2>
@@ -40,7 +42,7 @@ function Experience(props) {
 
        <div className='my-experience'>
         <div className='develop-img'>
-        <img src={codes} alt='devolop experience' className='img_devops' />
+        <img src={robot} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2023-Presents</h2>

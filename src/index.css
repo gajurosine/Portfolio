@@ -51,7 +51,7 @@ li{
 }
 a{
     color: 	#FFFFFF;
-    font-size: 13px;
+    font-size: 15px;
     font-family: sans-serif;
     text-decoration: none;
 }
@@ -73,7 +73,7 @@ a:hover{
 
 
 .hire_mebotto{
-    width: 90%;
+    width: 50%;
     height: 10vh;
 }
 
@@ -220,9 +220,9 @@ button:hover{
     box-shadow: 5px 5px 15px 10px #2c2b2b;
 }
 
-img{
+.aim-imag{
     width: 100%;
-    height: 0vh;
+    height: 78vh;
 }
 
 
@@ -237,9 +237,9 @@ img{
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 83%;
     height:80vh;
-    margin-left: 9%;
+    margin-left: 6%;
     border-radius: 10px;
     
     /* background-color: #1c2a46; */
@@ -274,7 +274,7 @@ font-size: 50px;
 color: #FFFFFF;
 font-family: sans-serif;
 font-weight: bold;
-margin: 20px;
+margin: 90px;
 
 }
 
@@ -300,7 +300,8 @@ margin: 20px;
 }
 
 .exp-desc{
-  padding-top: 40px;
+    padding-left: 5%;
+    padding-top: 40px;
     margin: 10px 0px 13px 20px;
     width: 15%;
     border-radius: 8px;
@@ -325,4 +326,9 @@ margin: 20px;
     width: 15%;
     text-align: center;
     margin: 40px 0px 10px 40%;
+}
+.img_devops{
+    width: 120%;
+    height: 30vh;
+    border: 10px;
 }

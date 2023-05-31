@@ -42,7 +42,7 @@ function AIM(props) {
                 </div>
             </div>
             <div className='pic_me'>
-                <img  src={code} alt='codes' className='aim-imag'></img>               
+                <img  src={code} alt='codes' className='aim-imag' />               
             </div>
         </div>
     );
