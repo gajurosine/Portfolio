@@ -8,7 +8,7 @@
 .App{
     padding: 0.2%;
     width: auto;
-    height: 300rem;
+    height: 450rem;
        background-color: #1a1b1d;
 }
 
@@ -233,7 +233,6 @@ button:hover{
 
 .main-experience{
     padding-top: 20px;
-    background-color: orange;
     width: 100%;
     height: 150vh;
 }
@@ -276,7 +275,7 @@ font-size: 50px;
 color: #FFFFFF;
 font-family: sans-serif;
 font-weight: bold;
-margin: 90px;
+margin: 50px;
 
 }
 
@@ -294,21 +293,18 @@ margin: 90px;
 
 
 .develop-img{
-    margin: 10px 0px 13px 20px;
-    width: 20%;
+    margin: 10px 40px 1px 10px;
+    width: 260rem;
     border-radius: 8px;
-    height: 30vh;
-    /* background-color: rgb(13, 186, 212); */
 }
 
 .exp-desc{
-    padding-left: 5%;
+    padding-left: 4%;
     padding-top: 40px;
-    margin: 10px 0px 13px 20px;
-    width: 15%;
+    margin: 10px 0px 13px 10px;
+    width: 560%;
     border-radius: 8px;
     height: 30vh;
-    /* background-color: rgb(16, 253, 186); */
 }
 
 .tit-exp{
@@ -341,8 +337,115 @@ margin: 90px;
 
 .edu-content{
         padding-top: 20px;
-        background-color: rgb(6, 96, 26);
         width: 100%;
         height: 150vh;
+        /* background-color: #1e2125; */
+    }
+    
+
+    .resume-content{
+        padding-top: 20px;
+        width: 100%;
+        height: 150vh;
+        /* background-color: blue; */
+    }
+
+    .resume{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        width: 83%;
+        height:140vh;
+        margin-left: 8%;
+        border-radius: 10px;       
+    }
+
+    .resume-dev{
+        margin: 12px;
+        padding: 20px;
+        width: auto;
+        box-shadow: 5px 5px 15px 10px #1a1919;
+        height: 20vh;
+        display: flex; 
+        flex-direction: column;
+        /* background-color: #25ac03; */
+    }
+
+
+
+    
+    .blog-content{
+        padding-top: 20px;
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+    }
+
+    .blog-me{
+        color: #FFFFFF;
+        width: 83%;
+        height:140vh;
+        margin-left: 8%;
+        border-radius: 10px;       
+    }
+
+    .blog{
+        margin: 12px;
+        padding: 20px;
+        width: auto;
+        box-shadow: 5px 5px 15px 10px #1a1919;
+        height: 20vh;
+        /* background-color: #25ac03; */
+    }
+
+    .all-blogs{
+        padding: 20px;
+        width:99%;
+        height: 70vh;
+    }
+
+.my-blog{
+    box-shadow: 5px 5px 15px 10px #1a1919;
+    padding: 10px;
+    width: 30%;
+    height:65vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 27, 142);
+}
+
+    .blog1{
+        height:43vh;
+    }
+
+    .img-blog-img{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin: 30px;
+        width: 90%;
+        height: 33vh;
+    }
+
+    .blog-desc{
+        padding-top: -10px;
+        width: 99%;
+        height:20vh;
+        border-radius: 20px;
+    }
+
+    .blog-head{
+        color: #e71414;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .blog-paraa{
+        padding-top: 30px;
+        color: #f0ecec;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
     }
     
