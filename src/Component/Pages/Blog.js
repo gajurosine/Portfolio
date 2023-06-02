@@ -8,6 +8,7 @@ function BLOG(props) {
             <h1 className='years'> VISIT AND GIVE ME YOUR FEEDBACK</h1>
             <p className='para-exp'>My BLOG</p>
             </div>
+            <div className='all'>
             <div className='all-blogs'>
                 <div className='my-blog'>
                 <div className='blog1'>
@@ -16,7 +17,7 @@ function BLOG(props) {
                 <div className='blog-desc'>
                     <h1 className='blog-head'>SOFTWARE</h1>
                     <p className='blog-paraa'>what is software, who is a software, what is required to be a software
-                        what is the benefits of being a software , read more
+                        what is the benefits of being a software
                     </p>
                     </div>
                 </div>
@@ -30,7 +31,7 @@ function BLOG(props) {
                 <div className='blog-desc'>
                     <h1 className='blog-head'>SOFTWARE</h1>
                     <p className='blog-paraa'>what is software, who is a software, what is required to be a software
-                        what is the benefits of being a software , read more
+                        what is the benefits of being a software .
                     </p>
                     </div>
                 </div>
@@ -45,13 +46,14 @@ function BLOG(props) {
                 <div className='blog-desc'>
                     <h1 className='blog-head'>SOFTWARE</h1>
                     <p className='blog-paraa'>what is software, who is a software, what is required to be a software
-                        what is the benefits of being a software , read more
+                        what is the benefits of being a software .
                     </p>
                     </div>
                 </div>
             </div>
 
         </div>
+    </div>
     </div>
     );
 }
