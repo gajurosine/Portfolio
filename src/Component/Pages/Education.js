@@ -1,7 +1,7 @@
 import React from 'react';
-import codes from '../../Asset/images/code3.avif'
-import scie from '../../Asset/images/back.avif'
-import robot from '../../Asset/images/code.avif'
+import codes from '../../Asset/images/rince.jpg'
+import scie from '../../Asset/images/cdv.jpg'
+import robot from '../../Asset/images/coding.jpg'
 
 
 function EDUCATION(props) {
