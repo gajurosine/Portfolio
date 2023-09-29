@@ -1,7 +1,9 @@
 import React from 'react';
-import { Form } from 'react-router-dom';
+// import { Form } from 'react-router-dom';
 
 function CONTACT(props) {
+
+
     return (
         <div className='contact-content'>
              <div className='contact-here'>
@@ -14,6 +16,7 @@ function CONTACT(props) {
 <div className='contact-side1'>
 </div>
             <div className='contact-form'>
+                {/* <Form/> */}
             </div>
 
        </div>

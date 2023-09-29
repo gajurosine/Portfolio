@@ -5,7 +5,16 @@ import robot from '../../Asset/images/code.avif'
 
 
 function EDUCATION(props) {
+        const handleContactClick = () => {
+            const Mailto='gajurosine1@gmail.com';
+               const subject ='hello dear';
+               const body='i want to talk to you plz';
+               const params=`subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+               window.location.href =`${Mailto}${params}`
+              
+              };
     return (
+
         <div className='edu-content'>
       <div className='myExperience'>
      <div className='EX-content'>
@@ -21,7 +30,7 @@ function EDUCATION(props) {
                 <p className='exp-develop'>Nursary & Primary school</p>
                 <p className='exp-develop'>Les Petit Prince</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
        </div>
 
 
@@ -35,7 +44,7 @@ function EDUCATION(props) {
                 <p className='exp-develop'>O' level</p>
                 <p className='exp-develop'>College Du Christ Roi , Nyanza</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
        </div>
 
 
@@ -51,7 +60,7 @@ function EDUCATION(props) {
                 <p className='exp-develop'>A' level</p>
                 <p className='exp-develop'>Rwanda  Coding Academy</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
        </div>
        
         </div>     

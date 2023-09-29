@@ -2,7 +2,18 @@ import React from 'react';
 import codes from '../../Asset/images/code3.avif'
 import scie from '../../Asset/images/back.avif'
 import robot from '../../Asset/images/code.avif'
+
 function Experience(props) {
+    const handleContactClick = () => {
+        const Mailto='gajurosine1@gmail.com';
+           const subject ='hello dear';
+           const body='i want to talk to you plz';
+           const params=`subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+           window.location.href =`${Mailto}${params}`
+          
+          };
+
+
     return (
         <div className='main-experience'>
         <div className='myExperience'>
@@ -19,7 +30,8 @@ function Experience(props) {
                 <p className='exp-develop'>Software  developer</p>
                 <p className='exp-develop'>Web desing</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
+            
        </div>
 
 
@@ -33,8 +45,8 @@ function Experience(props) {
                 <p className='exp-develop'>Data science</p>
                 <p className='exp-develop'>Web desing</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
-       </div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
+                   </div>
 
 
 
@@ -49,7 +61,8 @@ function Experience(props) {
                 <p className='exp-develop'>Robotics design</p>
                 <p className='exp-develop'>Web desing</p>
             </div>
-            <div className='exp-butto'><button>CONTACT</button></div>
+            <button className='contactme1' onClick={handleContactClick}>contact</button>
+    
        </div>
        
         </div>     
