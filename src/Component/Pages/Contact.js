@@ -33,6 +33,7 @@ function CONTACT(props) {
     <div className='contact-content'>
       <div className='contact-here'>
         <div className='contacts'>
+          <a href='http://localhost:3000/contact'>contact</a>
           <h1 className='contact-head'>Contact</h1>
           <p className='para-contact'>GET IN TOUCH WITH ME</p>
         </div>
