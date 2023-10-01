@@ -500,6 +500,7 @@ margin: 50px;
 
     
     .contact-here{
+        background-color: green;
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
@@ -522,17 +523,42 @@ margin: 50px;
 
 .contact-head{
     color: #e71414;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
+    font-family: serif;
 }
 
 .para-contact{
 text-align: center;
-font-size: 50px;
+font-size: 35px;
 color: #FFFFFF;
 font-family: sans-serif;
 font-weight: bold;
-margin: 50px;
+margin: 35px;
 
+}
+
+
+.contact-info{
+    display: flex;
+    width: 99%;
+    margin: 20px 10px 5px 5px;
+    height: 90vh;
+    background-color: rgb(67, 139, 202);
+}
+
+.contact-side1{
+    margin: 20px 10px 15px 15px;
+    width: 50%;
+    height: 85vh;
+    background: #e7d808;
+    border-radius: 4px;
+}
+.contact-form{
+    margin: 20px 10px 15px 15px;
+    width: 50%;
+    height: 85vh;
+    background: #e84ed6;
+    border-radius: 4px;
 }
