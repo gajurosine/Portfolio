@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../CV/rosine.pdf';
+import resume from '../../Asset/images/resume.jpg';
 function RESUME(props) {
     return (
         <div className='resume-content'>
