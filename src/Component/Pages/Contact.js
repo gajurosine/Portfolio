@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import hand from "../../Asset/images/hand2.avif";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faWhatsapp, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function CONTACT(props) {
   const [state, setState] = useState({
     names: '',
@@ -43,19 +44,23 @@ function CONTACT(props) {
               <img src={hand} alt='shaking hands' className='shaking-hand' />
             </div>
             <div className='info-contact'>
-              <h2 className='contact-head'>Nice to meet you</h2>
-              <p className='what-do'>Student at RCA</p>
-              <p className='work-info'>
+              <h2 className='contact-head'>ROSINE NZAMBAZAMARIYA</h2>
+              <p className='what-do'>A Front-end Developer</p>
+              <p className='what-do'>
                 I am available at every open opportunity and free for freelance work contact via and call me on my contact
               </p>
+              <a href=''> <FontAwesomeIcon icon={faFacebook} className='conatc-icons'/> </a>
+               <a href=''><FontAwesomeIcon icon={faWhatsapp} className='conatc-icons' /></a>
+               <a href='https://www.instagram.com/r_o_s_i_ne/'><FontAwesomeIcon icon={faInstagram} className='conatc-icons' /></a>
+               <a href='https://www.linkedin.com/in/gaju-rosine-810728238/'><FontAwesomeIcon icon={faLinkedin}  className='conatc-icons'/></a>
             </div>
           </div>
           <div className='contact-form'>
             <form onSubmit={handleSubmit}>
               <label >Name</label>
-              <input type='text' name='names' value={names} onChange={handleInputChange} required className='name-info' />
+              <input type='text' name='names' value={names} onChange={handleInputChange} required />
               <label className='phone-info'>phoneNumber</label>
-              <input type='text' name='phoneName' value={phoneName} onChange={handleInputChange} required  className='name-info'/>
+              <input type='text' name='phoneName' value={phoneName} onChange={handleInputChange} required  />
               <label>email</label>
               <input type='text' name='email' value={email} onChange={handleInputChange} required />
               <label>Subject</label>
@@ -64,7 +69,7 @@ function CONTACT(props) {
               <input type='text' name='message' value={message} onChange={handleInputChange} required className='message-info'/>
               <button type='submit' className='submit-button'>Submit</button>
             </form>
-            {Submitted && <div>Message submitted</div>}
+            {Submitted && <div className='submit-message'>Message submitted</div>}
           </div>
         </div>
       </div>

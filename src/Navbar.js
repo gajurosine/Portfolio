@@ -37,10 +37,7 @@ const Navbar = () => {
                     <Link to='/CONTACT'>CONTACT</Link>
                  </li>
            </div>
-          <div className="hire_mebotto">
-               <h1 className="log1">log </h1>
-               <button className="hire_botto">HIRE  ME</button>
-          </div>
+        
           </div>
       );
 }
