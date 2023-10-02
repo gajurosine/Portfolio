@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import hand from "../../Asset/images/1.jpg";
+import hand from "../../Asset/images/hand2.avif";
 
 function CONTACT(props) {
   const [state, setState] = useState({
@@ -33,7 +33,7 @@ function CONTACT(props) {
     <div className='contact-content'>
       <div className='contact-here'>
         <div className='contacts'>
-          <a href='http://localhost:3000/contact'>contact</a>
+          {/* <a href='http://localhost:3000/contact'>contact</a>- */}
           <h1 className='contact-head'>Contact</h1>
           <p className='para-contact'>GET IN TOUCH WITH ME</p>
         </div>
@@ -52,17 +52,17 @@ function CONTACT(props) {
           </div>
           <div className='contact-form'>
             <form onSubmit={handleSubmit}>
-              <label>Name</label>
-              <input type='text' name='names' value={names} onChange={handleInputChange} required />
-              <label>phoneNumber</label>
-              <input type='text' name='phoneName' value={phoneName} onChange={handleInputChange} required />
+              <label >Name</label>
+              <input type='text' name='names' value={names} onChange={handleInputChange} required className='name-info' />
+              <label className='phone-info'>phoneNumber</label>
+              <input type='text' name='phoneName' value={phoneName} onChange={handleInputChange} required  className='name-info'/>
               <label>email</label>
               <input type='text' name='email' value={email} onChange={handleInputChange} required />
               <label>Subject</label>
               <input type='text' name='subject' value={subject} onChange={handleInputChange} required />
               <label>message</label>
-              <input type='text' name='message' value={message} onChange={handleInputChange} required />
-              <button type='submit'>Submit</button>
+              <input type='text' name='message' value={message} onChange={handleInputChange} required className='message-info'/>
+              <button type='submit' className='submit-button'>Submit</button>
             </form>
             {Submitted && <div>Message submitted</div>}
           </div>

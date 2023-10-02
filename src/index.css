@@ -500,12 +500,12 @@ margin: 50px;
 
     
     .contact-here{
-        background-color: green;
+        /* background-color: green; */
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
         width: 83%;
-        height:140vh;
+        height: 147vh;
         margin-left: 8%;
         border-radius: 10px;       
     }
@@ -544,21 +544,52 @@ margin: 35px;
     display: flex;
     width: 99%;
     margin: 20px 10px 5px 5px;
-    height: 90vh;
-    background-color: rgb(67, 139, 202);
+    height: 120vh;
+    /* background-color: rgb(67, 139, 202); */
 }
 
 .contact-side1{
-    margin: 20px 10px 15px 15px;
-    width: 50%;
-    height: 85vh;
-    background: #e7d808;
+    padding-left: 2rem;
+    margin: 20px 10px 30px 25px;
+    width: 45%;
+    height: 115vh;
+    /* background: #e7d808; */
     border-radius: 4px;
 }
 .contact-form{
-    margin: 20px 10px 15px 15px;
-    width: 50%;
-    height: 85vh;
-    background: #e84ed6;
+    margin: 20px 10px 15px 60px;
+    width: 45%;
+    height: 115vh;
+    /* background: #e84ed6; */
     border-radius: 4px;
+}
+
+.shaking-hand{
+    width: 80%;
+    margin: 20px 20px 20px 35px;
+    height: 30vh;
+    border-radius: 12px;
+}
+
+form{
+    margin: 30px;
+    display: block;
+}
+
+label{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+label,input{
+    border:none;
+    height: 5vh;
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+}
+
+.message-info{
+    height: 25vh;
 }
