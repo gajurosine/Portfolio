@@ -49,8 +49,8 @@ function CONTACT(props) {
               <p className='what-do'>
                 I am available at every open opportunity and free for freelance work contact via and call me on my contact
               </p>
-              <a href=''> <FontAwesomeIcon icon={faFacebook} className='conatc-icons'/> </a>
-               <a href=''><FontAwesomeIcon icon={faWhatsapp} className='conatc-icons' /></a>
+              <a href='https://www.facebook.com/alia.rosine.3'> <FontAwesomeIcon icon={faFacebook} className='conatc-icons'/> </a>
+               <a href='https://www.facebook.com/alia.rosine.3'><FontAwesomeIcon icon={faWhatsapp} className='conatc-icons' /></a>
                <a href='https://www.instagram.com/r_o_s_i_ne/'><FontAwesomeIcon icon={faInstagram} className='conatc-icons' /></a>
                <a href='https://www.linkedin.com/in/gaju-rosine-810728238/'><FontAwesomeIcon icon={faLinkedin}  className='conatc-icons'/></a>
             </div>

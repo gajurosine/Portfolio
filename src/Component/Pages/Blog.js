@@ -1,5 +1,5 @@
 import React from 'react';
-import blog1 from '../../Asset/images/code.avif';
+import blog1 from '../../Asset/images/code1.avif';
 function BLOG(props) {
     return (
         <div className='blog-content'>

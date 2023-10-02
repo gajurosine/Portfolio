@@ -8,8 +8,8 @@
 .App{
     padding: 0.2%;
     width: auto;
-    height: 450rem;
-       background-color: #1a1b1d;
+    height: auto;
+    background-color: #1a1b1d;
 }
 
 .navbar{
@@ -220,7 +220,7 @@ button:hover{
     width:100%;
     height: 78vh;
     border-radius: 10px;
-    background-color: #090909;
+    background-color: #1a1a1a;
     box-shadow: 5px 5px 15px 10px #232222;
 }
 
@@ -270,14 +270,14 @@ button:hover{
 
 .years{
     color: #e71414;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
 }
 
 .para-exp{
 text-align: center;
-font-size: 50px;
+font-size: 20px;
 color: #FFFFFF;
 font-family: sans-serif;
 font-weight: bold;
@@ -326,14 +326,14 @@ margin: 50px;
 
 .tit-exp{
     color: #faf7f7;
-    font-size: 20px;
+    font-size: 17px;
     font-family: sans-serif;
 }
 
 .exp-develop{
     padding-top: 27px;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 17px;
     font-family: sans-serif;
 }
 
@@ -441,7 +441,6 @@ margin: 50px;
 
     .img-blog-img{
         border-radius: 20px;
-
         border-bottom-left-radius: 20px;
         margin: 25px;
         width: 90%;
@@ -449,7 +448,7 @@ margin: 50px;
     }
 
     .img-blog-img:hover{
-        width: 92%;
+        width: 90%;
         border-radius: 4%;
     }
 
@@ -462,16 +461,16 @@ margin: 50px;
 
     .blog-head{
         color: #e71414;
-        font-size: 25px;
+        font-size: 15px;
         font-family: sans-serif;
         font-weight: bold;
         margin-left: 30px;
     }
 
     .blog-paraa{
-        padding-top: 70px;
+        padding-top: 50px;
         color: #f0ecec;
-        font-size: 22px;
+        font-size: 18px;
         font-family:Arial, Helvetica, sans-serif;
         font-weight: bold;
         margin: 20px;
@@ -480,7 +479,7 @@ margin: 50px;
 
     .blog-paraa:hover{
         color: #bd0b40;
-        font-size: 20px;
+        font-size: 18.2px;
     }
 
 
@@ -530,7 +529,7 @@ margin: 50px;
 
 .para-contact{
 text-align: center;
-font-size: 35px;
+font-size: 25px;
 color: #FFFFFF;
 font-family: sans-serif;
 font-weight: bold;
@@ -553,14 +552,14 @@ margin: 35px;
     margin: 20px 10px 30px 25px;
     width: 45%;
     height: 99vh;
-    background-color:#1c1c1c;
+    box-shadow: 5px 5px 15px 10px #232222;
     border-radius: 6px;
 }
 .contact-form{
     margin: 20px 10px 15px 60px;
     width: 45%;
     height: 99vh;
-    background-color:#1c1c1c;
+    box-shadow: 5px 5px 15px 10px #232222;
     border-radius: 6px;
 }
 
