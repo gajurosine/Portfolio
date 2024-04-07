@@ -18,7 +18,7 @@ function Experience(props) {
         <div className='main-experience'>
         <div className='myExperience'>
      <div className='EX-content'>
-    <h1 className='years'>OVER 3 YEARS OF EXPERIENCE</h1>
+    <h1 className='years'>OVER 4 YEARS OF EXPERIENCE</h1>
     <p className='para-exp'>My Experience</p>
          </div>
        <div className='my-experience'>
@@ -27,7 +27,7 @@ function Experience(props) {
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2023-Presents</h2>
-                <p className='exp-develop'>Software  developer</p>
+                <p className='exp-develop'>Software  developer and Embedded Specialist</p>
                 <p className='exp-develop'>Web desing</p>
             </div>
             <button className='contactme1' onClick={handleContactClick}>contact</button>
@@ -57,9 +57,11 @@ function Experience(props) {
         <img src={robot} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
-                <h2 className='tit-exp'>2023-Presents</h2>
+                <h2 className='tit-exp'>2024-Presents</h2>
                 <p className='exp-develop'>Robotics design</p>
                 <p className='exp-develop'>Web desing</p>
+                <p className='exp-develop'>Embedded Specialist</p>
+
             </div>
             <button className='contactme1' onClick={handleContactClick}>contact</button>
     
