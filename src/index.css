@@ -24,8 +24,8 @@
 }
 
 .my-log{
-    width: 10%;
-    height: 14vh;
+    width: 8%;
+    height: 6vh;
 }
 
 .nav-img{
@@ -149,20 +149,6 @@ button:hover{
     font-size: 25px;
 }
 
-.user{
-     width: 4rem;
-     height: 8vh;
-     border-radius: 50%;
-     padding: 10px 0px 0px 10px ;
-     background-color: #E60022;
-     box-shadow: 1px 1px 5px 12px rgb(63, 23, 30)  ;
-}
-
-
-.fiuser-icon{
-    color: #efeaea;
-    font-size: 15px;
-}
 
 .user-info{
     padding: 20px;
@@ -225,7 +211,7 @@ button:hover{
 }
 
 .aim-imag{
-    width: 50%;
+    width: 60%;
     height: 78vh;
 }
 
@@ -393,8 +379,14 @@ margin: 50px;
     .blog-content{
         padding-top: 20px;
         width: 100%;
-        height: 110vh;
+        height: 160vh;
     }
+
+
+.all-blogs{
+    width: 40%; 
+    height: 120vh;
+}
 
 
 
@@ -426,7 +418,7 @@ margin: 50px;
     box-shadow: 5px 5px 15px 10px #232222;
     padding: 5px;
     width: 95%;
-    height:70vh;
+    height:100vh;
     border-radius: 7%;
 }
 
@@ -436,7 +428,7 @@ margin: 50px;
 }
 
     .blog1{
-        height:43vh;
+        height:50vh;
     }
 
     .img-blog-img{
@@ -444,7 +436,7 @@ margin: 50px;
         border-bottom-left-radius: 20px;
         margin: 25px;
         width: 90%;
-        height: 33vh;
+        height: 35vh;
     }
 
     .img-blog-img:hover{
@@ -454,7 +446,7 @@ margin: 50px;
 
     .blog-desc{
         padding-top: -10px;
-        width: 99%;
+        width: 90%;
         height:20vh;
         border-radius: 20px;
     }
@@ -468,7 +460,7 @@ margin: 50px;
     }
 
     .blog-paraa{
-        padding-top: 50px;
+        padding-top: 10px;
         color: #f0ecec;
         font-size: 18px;
         font-family:Arial, Helvetica, sans-serif;
@@ -479,7 +471,7 @@ margin: 50px;
 
     .blog-paraa:hover{
         color: #bd0b40;
-        font-size: 18.2px;
+        font-size: 19px;
     }
 
 
@@ -597,37 +589,44 @@ margin: 50px;
     }
     
     label {
-        font-size: 17px;
+        font-size: 19px;
     }
     
-    label,
+    /* label, */
     input {
-        margin: 8px;
+        background-color: #FFFFFF;
         font-family: sans-serif;
         font-weight: bold;
         border: none;
+        color: #100101;
         height: 5vh;
-        width: 100%;
-        display: block;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        padding: 10px;
+        font-size: 13px;
         border-radius: 7px;
     }
     
-    input {
-        padding: 10px;
-        font-size: 13px;
-    }
+   
     
     .message-info {
+        padding: 4px;
         font-size: 17px;
         height: 25vh;
-        border: none;
+        width: 100%;
+        margin: 10px;
+        border-radius: none;
+        font-weight: bold;
+        font-family: sans-serif;
     }
     
     .submit-button {
         margin-left: 10rem;
         align-items: center;
         border-radius: 10px;
-        color: #e00567;
+        color: #e00505;
         font-size: 18px;
         font-weight: bold;
         font-family: sans-serif;
@@ -635,7 +634,7 @@ margin: 50px;
     
     .submit-message {
         color: #bd0b40;
-        font-size: 20px;
+        font-size: 23px;
         text-align: center;
     }
     

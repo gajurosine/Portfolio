@@ -1,7 +1,7 @@
 import React from 'react';
-import code from '../../Asset/images/hhh.jpg';
+import code from '../../Asset/images/f.jpg';
 import { AiTwotoneMail } from 'react-icons/ai';
-import { FiMapPin, FiFile, FiUser } from 'react-icons/fi';
+import { FiMapPin, FiFile } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 
 function AIM(props) {
@@ -15,7 +15,7 @@ function AIM(props) {
     };
 
     const handleContactClick = () => {
-        // Navigate to the contact page
+        
         navigate('/contact');
     };
 
@@ -23,12 +23,9 @@ function AIM(props) {
         <div className='contents'>
             <div className='introduction'>
                 <div className='dev_greet'>
-                    <div className='user'>
-                        {' '}
-                        <FiUser className='fiuser-icon' />
-                    </div>
+                
                     <h2 className='title'>
-                        Hi , I'm <span style={{ color: '#e71414', fontSize: '30px' }}>Rosine</span>
+                        Hi , I'am <span style={{ color: '#e71414', fontSize: '30px' }}>Rosine</span>
                     </h2>
                     <p style={{ color: '#ffffff', fontSize: '18px' }}> Web design and web developer working at my company</p>
                     <div className='user-info'>

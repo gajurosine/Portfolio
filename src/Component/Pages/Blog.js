@@ -2,6 +2,7 @@ import React from 'react';
 import blog1 from '../../Asset/images/hand1.jpg.jpg';
 import blog2 from '../../Asset/images/e-commerce.jpeg';
 import blog3 from '../../Asset/images/hand6.png';
+import { Link } from 'react-router-dom';
 function BLOG(props) {
     return (
         <div className='blog-content'>
@@ -17,9 +18,11 @@ function BLOG(props) {
                     <img src={blog3} alt='blogs' className='img-blog-img' />
                 </div>
                 <div className='blog-desc'>
-                    <h1 className='blog-head'>Confarm </h1>
-                    <p className='blog-paraa'>what is software, which help people with deaf disability to communicate with the 
-                    people without disability and other who don't know the the sign language 
+                     <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
+                     Confarm
+                    </Link>
+                    <p className='blog-paraa'>Communication is often difficult to obtain by hearing-impaired people since their sign language is only understood by
+                     a few normal people. On the contrary, the spoken language is hard to understand due to their hearing impairment. The conventional method by converting sign language into  speech . 
                     </p>
                     </div>
                 </div>
@@ -31,9 +34,11 @@ function BLOG(props) {
                     <img src={blog2} alt='blogs' className='img-blog-img' />
                 </div>
                 <div className='blog-desc'>
-                    <h1 className='blog-head'>E-Commerce </h1>
-                    <p className='blog-paraa'>what is a web appication which allow local people to trade their product online
-                    and also help them to get the product from the other local people 
+                     <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
+                     E-Commerce 
+                    </Link>
+                    <p className='blog-paraa'>whis is a web appication which allow local people to trade their product online
+                    and also help them to get the product from the other local people .
                     </p>
                     </div>
                 </div>
@@ -46,9 +51,11 @@ function BLOG(props) {
                     <img src={blog1} alt='blogs' className='img-blog-img' />
                 </div>
                 <div className='blog-desc'>
-                    <h1 className='blog-head'>SOFTWARE</h1>
-                    <p className='blog-paraa'>what is software, who is a software, what is required to be a software
-                        what is the benefits of being a software .
+                    <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
+                    SOFTWARE
+                    </Link>
+                    <p className='blog-paraa'>this is a chatbot which allows people to communicate all over the africa that can help us 
+                    as african to get in torch , we can't always waiting for the white people to support or provide the opportunity to us , so we must loock the solution among as not other excpections.
                     </p>
                     </div>
                 </div>

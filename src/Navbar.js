@@ -1,6 +1,6 @@
 
 import React from "react";
-import loxa from '../src/Asset/images/loxa.png';
+import loxa from '../src/Asset/images/f.jpg';
 import { Link } from "react-router-dom";
 const Navbar = () => {
      return ( 
@@ -19,7 +19,7 @@ const Navbar = () => {
                </li>
 
                <li>
-                    <Link to='/MYEXPERIENCE'>EXPERIENCE</Link>
+                    <Link to='/EXPERIENCE'>EXPERIENCE</Link>
                </li>
                  <li>
                     <Link to='/EDUCATION'>EDUCATION</Link>

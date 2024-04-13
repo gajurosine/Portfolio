@@ -24,11 +24,11 @@ function Contact(props) {
   const handleSubmit = (event) => {
     event.preventDefault();
     const { names, phoneName, email, subject, message } = state;
-    // Format the email body
+    
     const mailtoLink = `mailto:gajurosine1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nFrom: ' + names + '\nPhone: ' + phoneName + '\nEmail: ' + email)}`;
-    // Open the default email client with the pre-filled email
+    
     window.location.href = mailtoLink;
-    // Set submitted state to true
+  
     setState((prevState) => ({
       ...prevState,
       submitted: true,
@@ -63,12 +63,12 @@ function Contact(props) {
           </div>
           <div className='contact-form'>
             {submitted ? (
-              <div className='submit-message'>Message submitted</div>
+              <div className='submit-message'>Message submitted , Thanks we will get in torch</div>
             ) : (
               <form onSubmit={handleSubmit}>
                 <label >Name</label>
                 <input type='text' name='names' value={names} onChange={handleInputChange} required />
-                <label className='phone-info'>Phone Number</label>
+                <label className='phone-info'>Phone </label>
                 <input type='text' name='phoneName' value={phoneName} onChange={handleInputChange} required  />
                 <label>Email</label>
                 <input type='text' name='email' value={email} onChange={handleInputChange} required />
