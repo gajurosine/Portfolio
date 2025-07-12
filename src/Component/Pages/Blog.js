@@ -34,7 +34,7 @@ function BLOG(props) {
                     <img src={blog2} alt='blogs' className='img-blog-img' />
                 </div>
                 <div className='blog-desc'>
-                     <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
+                     <Link to='https://gajurosine1.wixsite.com/rosiib-blog' className='blog-head'> 
                      E-Commerce 
                     </Link>
                     <p className='blog-paraa'>whis is a web appication which allow local people to trade their product online
