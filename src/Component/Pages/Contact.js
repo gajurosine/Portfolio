@@ -13,7 +13,7 @@ function Contact() {
 
     emailjs.sendForm(
       'service_0virnqi',          // Your EmailJS service ID
-      'template_s2n3soh',         // Your EmailJS template ID
+      'service_0virnqi',         // Your EmailJS template ID
       formRef.current,
       'L0Kj-5bp42pe58x9B'         // Your EmailJS public key
     )
