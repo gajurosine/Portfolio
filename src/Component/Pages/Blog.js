@@ -51,7 +51,7 @@ function BLOG(props) {
                     <img src={blog1} alt='blogs' className='img-blog-img' />
                 </div>
                 <div className='blog-desc'>
-                    <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
+                    <Link to='https://gajurosine1.wixsite.com/roshop' className='blog-head'> 
                     SOFTWARE
                     </Link>
                     <p className='blog-paraa'>this is a chatbot which allows people to communicate all over the africa that can help us 
