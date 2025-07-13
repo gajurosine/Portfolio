@@ -297,31 +297,6 @@ button:hover{
     height: 150vh;
 }
 
-/* .resume-content{
-    padding-top: 20px;
-    width: 100%;
-    height: 150vh;
-} */
-
-/* .resume{
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    width: 83%;
-    height:140vh;
-    margin-left: 8%;
-    border-radius: 10px;       
-} */
-
-/* .resume-dev{
-    margin: 12px;
-    padding: 20px;
-    width: auto;
-    box-shadow: 5px 5px 15px 10px #232222;
-    height: 20vh;
-    display: flex; 
-    flex-direction: column;
-} */
 
 
 .resume-iframe {
@@ -736,7 +711,7 @@ a:hover {
 /* Toggle Button */
 .theme-toggle-btn {
   cursor: pointer;
-  padding: 6px 12px;
+  padding: 1px 12px;
   border: 1px solid currentColor;
   background: transparent;
   font-weight: bold;
@@ -755,3 +730,8 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
+

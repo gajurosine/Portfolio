@@ -2,10 +2,8 @@ import React from 'react';
 import code from '../../Asset/images/f.jpg';
 import { AiTwotoneMail } from 'react-icons/ai';
 import { FiMapPin, FiFile } from 'react-icons/fi';
-import { useNavigate } from 'react-router-dom';
 
 function Aim() {
-  const navigate = useNavigate();
 
   const handleDownloadClick = () => {
     const a = document.createElement('a');

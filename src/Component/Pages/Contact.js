@@ -56,10 +56,10 @@ function Contact() {
               <h2 className='contact-head'>Rosine Nzambazamariya</h2>
               <p className='what-do'>Front-end Developer and Embedded Specialist</p>
               <p className='what-do'>I’m available for freelance work. Contact me anytime.</p>
-              <a href='https://www.facebook.com/alia.rosine.3'><FontAwesomeIcon icon={faFacebook} className='contact-icons' /></a>
+              <a href='https://web.facebook.com/alia.rosine.3/'><FontAwesomeIcon icon={faFacebook} className='contact-icons' /></a>
               <a href='https://wa.me/250789577032'><FontAwesomeIcon icon={faWhatsapp} className='contact-icons' /></a>
-              <a href='https://www.instagram.com/r_o_s_i_ne/'><FontAwesomeIcon icon={faInstagram} className='contact-icons' /></a>
-              <a href='https://www.linkedin.com/in/gaju-rosine-810728238/'><FontAwesomeIcon icon={faLinkedin} className='contact-icons' /></a>
+              <a href='https://www.instagram.com/daily.drive07/'><FontAwesomeIcon icon={faInstagram} className='contact-icons' /></a>
+              <a href='https://www.linkedin.com/in/rosine-nzambazamariya-810728238/'><FontAwesomeIcon icon={faLinkedin} className='contact-icons' /></a>
             </div>
           </div>
 
