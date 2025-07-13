@@ -3,68 +3,81 @@ import blog1 from '../../Asset/images/hand1.jpg.jpg';
 import blog2 from '../../Asset/images/e-commerce.jpeg';
 import blog3 from '../../Asset/images/hand6.png';
 import { Link } from 'react-router-dom';
-function BLOG(props) {
-    return (
-        <div className='blog-content'>
-        <div className='blog-me'>
-            <div className='blog'>
-            <h1 className='years'> VISIT AND GIVE ME YOUR FEEDBACK</h1>
-            <p className='para-exp'>My BLOG</p>
-            </div>
-            <div className='all'>
-            <div className='all-blogs'>
-                <div className='my-blog'>
-                <div className='blog1'>
-                    <img src={blog3} alt='blogs' className='img-blog-img' />
-                </div>
-                <div className='blog-desc'>
-                     <Link to='/http://bm-trade.42web.io/index.php' className='blog-head'> 
-                     Confarm
-                    </Link>
-                    <p className='blog-paraa'>Communication is often difficult to obtain by hearing-impaired people since their sign language is only understood by
-                     a few normal people. On the contrary, the spoken language is hard to understand due to their hearing impairment. The conventional method by converting sign language into  speech . 
-                    </p>
-                    </div>
-                </div>
-            </div>
 
-            <div className='all-blogs'>
-                <div className='my-blog'>
-                <div className='blog1'>
-                    <img src={blog2} alt='blogs' className='img-blog-img' />
-                </div>
-                <div className='blog-desc'>
-                     <Link to='https://gajurosine1.wixsite.com/rosiib-blog' className='blog-head'> 
-                     E-Commerce 
-                    </Link>
-                    <p className='blog-paraa'>whis is a web appication which allow local people to trade their product online
-                    and also help them to get the product from the other local people .
-                    </p>
-                    </div>
-                </div>
-            </div>
+function BLOG() {
+  return (
+    <div id="blog" className='blog-content'>
+      <div className='blog-me'>
+        <div className='blog'>
+          <h1 className='years'>VISIT AND GIVE ME YOUR FEEDBACK</h1>
+          <p className='para-exp'>My BLOG</p>
+        </div>
 
+        <div className='all'>
 
-            <div className='all-blogs'>
-                <div className='my-blog'>
-                <div className='blog1'>
-                    <img src={blog1} alt='blogs' className='img-blog-img' />
-                </div>
-                <div className='blog-desc'>
-                    <Link to='https://gajurosine1.wixsite.com/roshop' className='blog-head'> 
-                    SOFTWARE
-                    </Link>
-                    <p className='blog-paraa'>this is a chatbot which allows people to communicate all over the africa that can help us 
-                    as african to get in torch , we can't always waiting for the white people to support or provide the opportunity to us , so we must loock the solution among as not other excpections.
-                    </p>
-                    </div>
-                </div>
+          {/* BLOG 1 */}
+          <div className='all-blogs'>
+            <div className='my-blog'>
+              <div className='blog1'>
+                <img src={blog3} alt='blogs' className='img-blog-img' />
+              </div>
+              <div className='blog-desc'>
+                <a href='http://bm-trade.42web.io/index.php' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                  Confarm
+                </a>
+                <p className='blog-paraa'>
+                  Confarm is a solution for hearing-impaired users, converting sign language into speech so communication is easier and more inclusive.
+                </p>
+              </div>
             </div>
+          </div>
+
+          {/* BLOG 2 */}
+          <div className='all-blogs'>
+            <div className='my-blog'>
+              <div className='blog1'>
+                <img src={blog2} alt='blogs' className='img-blog-img' />
+              </div>
+              <div className='blog-desc'>
+                <a href='https://gajurosine1.wixsite.com/rosiib-blog' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                  E-Commerce
+                </a>
+                <p className='blog-paraa'>
+                  A web platform that allows local people to trade products online and connect with other nearby sellers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG 3 */}
+          <div className='all-blogs'>
+            <div className='my-blog'>
+              <div className='blog1'>
+                <img src={blog1} alt='blogs' className='img-blog-img' />
+              </div>
+              <div className='blog-desc'>
+                <a href='https://gajurosine1.wixsite.com/roshop' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                  Software
+                </a>
+                <p className='blog-paraa'>
+                  A chatbot designed to connect Africans through smart local communication without depending on foreign solutions.
+                </p>
+              </div>
+            </div>
+          </div>
 
         </div>
+
+        {/* ✅ VIEW ALL BUTTON */}
+        <div className="view-all-wrapper">
+          <Link to="/all-blogs" className="view-all-btn">
+            View All
+          </Link>
+        </div>
+
+      </div>
     </div>
-    </div>
-    );
+  );
 }
 
 export default BLOG;

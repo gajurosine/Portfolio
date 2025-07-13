@@ -12,10 +12,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_0virnqi',          // Your EmailJS service ID
-      'service_0virnqi',         // Your EmailJS template ID
+      'service_0virnqi',
+      'service_0virnqi',
       formRef.current,
-      'L0Kj-5bp42pe58x9B'         // Your EmailJS public key
+      'L0Kj-5bp42pe58x9B'
     )
     .then((result) => {
         console.log('SUCCESS:', result.text);
@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <div className='contact-content'>
+    <div id="contact" className='contact-content'> {/* ✅ ADDED id="contact" here */}
       <div className='contact-here'>
         <div className='contacts'>
           <h1 className='contact-head'>Contact</h1>

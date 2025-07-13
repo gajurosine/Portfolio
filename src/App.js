@@ -9,6 +9,7 @@ import Education from './Component/Pages/Education';
 import Resume from './Component/Pages/Resume';
 import Blog from './Component/Pages/Blog';
 import Contact from './Component/Pages/Contact';
+import AllBlogs from './Component/Pages/AllBlogs'; // <-- Import here
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -26,12 +27,13 @@ function App() {
         <Navbar theme={theme} setTheme={setTheme} />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path='/Aim' element={<Aim />} />
-          <Route path='/Experience' element={<Experience />} />
-          <Route path='/Education' element={<Education />} />
-          <Route path='/Resume' element={<Resume />} />
-          <Route path='/Blog' element={<Blog />} />
-          <Route path='/Contact' element={<Contact />} />
+          <Route path="/Aim" element={<Aim />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/Education" element={<Education />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/all-blogs" element={<AllBlogs />} /> {/* <-- Added route */}
         </Routes>
       </Router>
     </div>
