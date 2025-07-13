@@ -420,13 +420,29 @@ button:hover{
     border-radius: 20px;
 }
 
-.blog-head{
-    color: #e71414;
-    font-size: 10px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 30px;
+.blog-head {
+  display: inline-block;
+  background-color: #cecdcd; /* Light gray background */
+  color: #06af11; /* Green text like in your original blog-head */
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 6px 16px;
+  margin: 20px auto;
+  margin-left: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.blog-head:hover {
+  background-color: #dcdcdc;
+  transform: scale(1.05);
+  color: #e71414;
+}
+
 
 .blog-paraa{
     padding-top: 10px;
