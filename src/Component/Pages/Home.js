@@ -7,7 +7,7 @@ import Experience from "./Experience";
 // import Resume  from './Resume';
 
 const Home = () => {
-
+''
      return ( 
           <div className="home_tab">
           <Aim/>

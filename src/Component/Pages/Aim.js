@@ -1,6 +1,6 @@
 import React from 'react';
 import code from '../../Asset/images/f.jpg';
-import { AiTwotoneMail } from 'react-icons/ai';
+import { AiTwotoneMail , AiOutlinePhone} from 'react-icons/ai';
 import { FiMapPin, FiFile } from 'react-icons/fi';
 
 function Aim() {
@@ -37,6 +37,11 @@ function Aim() {
               <AiTwotoneMail className='info-icon' />
               <span className='icon-desc'>gajurosine1@gmail.com</span>
             </div>
+             <div className='info'>
+              < AiOutlinePhone className='info-icon' />
+              <span className='icon-desc'>+250789577032</span>
+            </div>
+
             <div className='info'>
               <FiMapPin className='info-icon' />
               <span className='icon-desc'>Rwanda, Kigali City</span>

@@ -1,6 +1,6 @@
 import React from 'react';
-import blog1 from '../../Asset/images/hand1.jpg.jpg';
-import blog2 from '../../Asset/images/e-commerce.jpeg';
+import blog1 from '../../Asset/images/chatbot.jpeg';
+import blog2 from '../../Asset/images/image.jpeg';
 import blog3 from '../../Asset/images/hand6.png';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,6 @@ function BLOG() {
     <div id="blog" className='blog-content'>
       <div className='blog-me'>
         <div className='blog'>
-          <h1 className='years'>VISIT AND GIVE ME YOUR FEEDBACK</h1>
           <p className='para-exp'>My BLOG</p>
         </div>
 
@@ -39,11 +38,14 @@ function BLOG() {
                 <img src={blog2} alt='blogs' className='img-blog-img' />
               </div>
               <div className='blog-desc'>
-                <a href='https://gajurosine1.wixsite.com/rosiib-blog' className='blog-head' target='_blank' rel='noopener noreferrer'>
-                  E-Commerce
+                <a href='https://rosineeshop-a3r3gnmfn-gajurosines-projects.vercel.app/#' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                  Rosine E-Shop
                 </a>
                 <p className='blog-paraa'>
-                  A web platform that allows local people to trade products online and connect with other nearby sellers.
+
+                 Rosine E-Shop is a modern, responsive e-commerce web 
+                  application built with ReactJS and Vite for the frontend, and designed to integrate with a backend API. It allows users to browse products, search and filter items, add products to a shopping cart, and proceed to 
+                      checkout with a smooth, user-friendly experience.
                 </p>
               </div>
             </div>
@@ -56,12 +58,12 @@ function BLOG() {
                 <img src={blog1} alt='blogs' className='img-blog-img' />
               </div>
               <div className='blog-desc'>
-                <a href='https://gajurosine1.wixsite.com/roshop' className='blog-head' target='_blank' rel='noopener noreferrer'>
-                  Software
+                <a href='https://gajurosine1.wixsite.com/rohop' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                  Smartchatbot
                 </a>
                 <p className='blog-paraa'>
-                  A chatbot designed to connect Africans through smart local communication without depending on foreign solutions.
-                </p>
+                This website features a smart chatbot designed to connect Africans through local communication solutions, without relying on foreign platforms. The chatbot facilitates seamless conversations, information sharing, and community interaction, promoting homegrown 
+               technology and enhancing digital connectivity across the continent                </p>
               </div>
             </div>
           </div>

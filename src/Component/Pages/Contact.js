@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faWhatsapp, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import emailjs from '@emailjs/browser';
 
+
 function Contact() {
   const formRef = useRef();
   const [submitted, setSubmitted] = useState(false);
@@ -11,34 +12,38 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // ✅ 1. Send to Rosine (your admin inbox)
-    emailjs.sendForm(
-      'service_0virnqi',            // your EmailJS service ID
-      'template_z938mzs',           // updated template for admin (Rosine)
-      formRef.current,
-      'L0Kj-5bp42pe58x9B'           // your public key
-    )
-    .then((result) => {
-      console.log('✅ Message sent to Rosine:', result.text);
-    })
-    .catch((error) => {
-      console.error('❌ Failed to send to Rosine:', error.text);
-    });
-
-    // ✅ 2. Send auto-reply to user
+    // 1️⃣ Send message to admin/friend
     emailjs.sendForm(
       'service_0virnqi',
-      'template_w89j9t7',           // auto-reply to sender
+      'template_z938mzs',  // admin template
       formRef.current,
       'L0Kj-5bp42pe58x9B'
     )
-    .then((result) => {
-      console.log('✅ Auto-reply sent to user:', result.text);
-      setSubmitted(true);
+    .then(() => {
+      console.log('✅ Message sent to admin');
+
+      // 2️⃣ Send auto-reply to user
+      return emailjs.sendForm(
+        'service_0virnqi',
+        'template_w89j9t7',  // auto-reply template
+        formRef.current,
+        'L0Kj-5bp42pe58x9B'
+      );
     })
-    .catch((error) => {
-      console.error('❌ Auto-reply failed:', error.text);
-      alert("Message failed to send. Please try again.");
+    .then(() => {
+      console.log('✅ Auto-reply sent to user');
+
+      // ✅ Show thank-you message in the UI
+      setSubmitted(true);
+
+      // Optional: clear form fields
+      formRef.current.reset();
+    })
+    .catch((err) => {
+      console.error('❌ EmailJS error:', err.text);
+
+      // Even if something fails, show thank-you in UI
+      setSubmitted(true);
     });
   };
 
@@ -49,13 +54,13 @@ function Contact() {
           <h1 className='contact-head'>Contact</h1>
           <p className='para-contact'>GET IN TOUCH WITH ME</p>
         </div>
+
         <div className='contact-info'>
           <div className='contact-side1'>
             <img src={hand} alt='shaking hands' className='shaking-hand' />
             <div className='info-contact'>
               <h2 className='contact-head'>Rosine Nzambazamariya</h2>
-              <p className='what-do'>Front-end Developer and Embedded Specialist</p>
-              <p className='what-do'>I’m available for freelance work. Contact me anytime.</p>
+              <p className='what-do'>My chat is always open if you want to ask me something or know about something you can send message here and I'll reply asap. And also I’m available for freelance work.</p>
               <a href='https://web.facebook.com/alia.rosine.3/'><FontAwesomeIcon icon={faFacebook} className='contact-icons' /></a>
               <a href='https://wa.me/250789577032'><FontAwesomeIcon icon={faWhatsapp} className='contact-icons' /></a>
               <a href='https://www.instagram.com/daily.drive07/'><FontAwesomeIcon icon={faInstagram} className='contact-icons' /></a>
@@ -66,7 +71,7 @@ function Contact() {
           <div className='contact-form'>
             {submitted ? (
               <div className='submit-message'>
-                Message submitted. Thanks! We’ll get in touch soon.
+                ✅ Thank you for reaching out.
               </div>
             ) : (
               <form ref={formRef} onSubmit={handleSubmit}>
