@@ -1,6 +1,6 @@
 import React from 'react';
 import blog2 from '../../Asset/images/animals.jpg';
-
+import Microsoft from '../../Asset/images/Office.jpg';
 function AllBlogs() {
   return (
     <div style={{ padding: '2rem' }}>
@@ -23,6 +23,24 @@ function AllBlogs() {
                               </div>
                             </div>
                           </div>
+
+                           {/* MS EXPERT */}
+                                    <div className='all-blogs'>
+                                      <div className='my-blog'>
+                                        <div className='blog1'>
+                                          <img src={Microsoft} alt='blogs' className='img-blog-img' style={{with:"360rem" ,heigt:"230rem"}} />
+                                        </div>
+                                        <div className='blog-desc'>
+                                          <a href='htthttps://excel.cloud.microsoft/open/onedrive/?docId=4769059FA69576EB%21s25b87da033084b2a9ac68d3fe6216706&driveId=4769059FA69576EB' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                                           Exploring Microsoft Office Tools
+                                          </a>
+                                          <p className='blog-paraa'>
+                                           Today, I took a big step in improving my skills with Microsoft Office.
+                                            I spent time learning and practicing tools like Excel, Word, and PowerPoint. This project shows how I can use Microsoft applications to create organized documents, analyze data, and design simple presentations. It’s the start of my journey 
+                                           toward becoming more confident and productive using Microsoft tools.</p>
+                                        </div>
+                                      </div>
+                                    </div>
               </div>
     </div>
   );
