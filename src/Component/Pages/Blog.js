@@ -1,5 +1,5 @@
 import React from 'react';
-import blog1 from '../../Asset/images/chatbot.jpeg';
+import blog1 from '../../Asset/images/Tim.jpeg';
 import blog2 from '../../Asset/images/image.jpeg';
 import blog3 from '../../Asset/images/hand6.png';
 import { Link } from 'react-router-dom';
@@ -58,12 +58,13 @@ function BLOG() {
                 <img src={blog1} alt='blogs' className='img-blog-img' />
               </div>
               <div className='blog-desc'>
-                <a href='https://gajurosine1.wixsite.com/rohop' className='blog-head' target='_blank' rel='noopener noreferrer'>
+                <a href='https://planner-0gyh.onrender.com/' className='blog-head' target='_blank' rel='noopener noreferrer'>
                   Smartchatbot
                 </a>
                 <p className='blog-paraa'>
-                This website features a smart chatbot designed to connect Africans through local communication solutions, without relying on foreign platforms. The chatbot facilitates seamless conversations, information sharing, and community interaction, promoting homegrown 
-               technology and enhancing digital connectivity across the continent                </p>
+                Daily Life Planner is a web-based application built with Flask that 
+                helps users organize their daily activities efficiently. Users can 
+                input their wake-up time, study hours, travel time, and tasks for the day,              </p>
               </div>
             </div>
           </div>
