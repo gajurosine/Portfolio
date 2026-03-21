@@ -1,5 +1,5 @@
 import React from 'react';
-import code from '../../Asset/images/f.jpg';
+import code from '../../Asset/images/code.avif';
 import { AiTwotoneMail , AiOutlinePhone} from 'react-icons/ai';
 import { FiMapPin, FiFile } from 'react-icons/fi';
 
@@ -22,16 +22,16 @@ function Aim() {
       <div className='introduction'>
         <div className='dev_greet'>
           <h2 className='title'>
-            Hi, I'am <span style={{ color: '#e71414', fontSize: '30px' }}>Rosine</span>
+            Hi, I am <span style={{ color: '#e71414', fontSize: '30px' }}>Rosine</span>
           </h2>
           <p style={{ color: '#ffffff', fontSize: '18px' }}>
-            Web design and web developer working at my company
+            Frontend Developer focused on building clean, responsive, and user-friendly web applications.
           </p>
 
           <div className='user-info'>
             <div className='info'>
               <FiFile className='info-icon' />
-              <span className='icon-desc'>Web design and developer</span>
+              <span className='icon-desc'>Frontend Developer | UI-focused Engineer</span>
             </div>
             <div className='info'>
               <AiTwotoneMail className='info-icon' />
@@ -54,13 +54,13 @@ function Aim() {
             Download CV
           </button>
           <button className='contactme' onClick={handleContactClick}>
-            Contact
+            Contact Me
           </button>
         </div>
       </div>
 
       <div className='pic_me'>
-        <img src={code} alt='coding' className='aim-imag' />
+        <img src={code} alt='coding' className='aim-imag' loading='eager' fetchPriority='high' decoding='async' />
       </div>
     </section>
   );

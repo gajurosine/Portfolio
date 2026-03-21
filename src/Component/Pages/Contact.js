@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import hand from "../../Asset/images/hand2.avif";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faWhatsapp, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import emailjs from '@emailjs/browser';
 
 
 function Contact() {
@@ -11,9 +10,10 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    import('@emailjs/browser').then(({ default: emailjs }) => {
 
     // 1️⃣ Send message to admin/friend
-    emailjs.sendForm(
+    return emailjs.sendForm(
       'service_0virnqi',
       'template_z938mzs',  // admin template
       formRef.current,
@@ -45,6 +45,10 @@ function Contact() {
       // Even if something fails, show thank-you in UI
       setSubmitted(true);
     });
+    }).catch((err) => {
+      console.error('❌ Failed to load email service:', err);
+      setSubmitted(true);
+    });
   };
 
   return (
@@ -52,15 +56,15 @@ function Contact() {
       <div className='contact-here'>
         <div className='contacts'>
           <h1 className='contact-head'>Contact</h1>
-          <p className='para-contact'>GET IN TOUCH WITH ME</p>
+          <p className='para-contact'>Let's Work Together</p>
         </div>
 
         <div className='contact-info'>
           <div className='contact-side1'>
-            <img src={hand} alt='shaking hands' className='shaking-hand' />
+            <img src={hand} alt='shaking hands' className='shaking-hand' loading='lazy' decoding='async' />
             <div className='info-contact'>
               <h2 className='contact-head'>Rosine Nzambazamariya</h2>
-              <p className='what-do'>My chat is always open if you want to ask me something or know about something you can send message here and I'll reply asap. And also I’m available for freelance work.</p>
+              <p className='what-do'>I am open to full-time roles, internships, and freelance opportunities. Feel free to send a message. I usually respond quickly.</p>
               <a href='https://web.facebook.com/alia.rosine.3/'><FontAwesomeIcon icon={faFacebook} className='contact-icons' /></a>
               <a href='https://wa.me/250789577032'><FontAwesomeIcon icon={faWhatsapp} className='contact-icons' /></a>
               <a href='https://www.instagram.com/daily.drive07/'><FontAwesomeIcon icon={faInstagram} className='contact-icons' /></a>
@@ -71,7 +75,7 @@ function Contact() {
           <div className='contact-form'>
             {submitted ? (
               <div className='submit-message'>
-                ✅ Thank you for reaching out.
+                ✅ Thank you for your message. I will get back to you soon.
               </div>
             ) : (
               <form ref={formRef} onSubmit={handleSubmit}>

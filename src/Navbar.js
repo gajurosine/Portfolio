@@ -1,5 +1,5 @@
 import React from "react";
-import loxa from '../src/Asset/images/f.jpg';
+import loxa from '../src/Asset/images/code.avif';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = ({ theme, setTheme }) => {
@@ -33,21 +33,21 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <div className={`navbar ${theme}`}>
       <div className="my-log">
-        <img src={loxa} className="nav-img" alt="navbar" />
+        <img src={loxa} className="nav-img" alt="navbar" loading="eager" decoding="async" />
       </div>
 
       <div className="links">
         <li><Link to="/">HOME</Link></li>
         {/* Remove separate AIM page link if AIM is on home; else keep as <Link to="/Aim"> */}
         <li>
-          <a href="/#aim" onClick={(e) => scrollToSection(e, "aim")}>AIM</a>
+          <a href="/#aim" onClick={(e) => scrollToSection(e, "aim")}>ABOUT</a>
         </li>
         <li><Link to="/Experience">EXPERIENCE</Link></li>
         <li><Link to="/Education">EDUCATION</Link></li>
         <li><Link to="/Resume">RESUME</Link></li>
 
         <li>
-          <a href="/#blog" onClick={(e) => scrollToSection(e, "blog")}>BLOG</a>
+          <a href="/#blog" onClick={(e) => scrollToSection(e, "blog")}>PROJECTS</a>
         </li>
 
         <li>

@@ -9,7 +9,7 @@ function BLOG() {
     <div id="blog" className='blog-content'>
       <div className='blog-me'>
         <div className='blog'>
-          <p className='para-exp'>My BLOG</p>
+          <p className='para-exp'>Featured Projects</p>
         </div>
 
         <div className='all'>
@@ -18,14 +18,14 @@ function BLOG() {
           <div className='all-blogs'>
             <div className='my-blog'>
               <div className='blog1'>
-                <img src={blog3} alt='blogs' className='img-blog-img' />
+                <img src={blog3} alt='blogs' className='img-blog-img' loading='lazy' decoding='async' />
               </div>
               <div className='blog-desc'>
                 <a href='http://bm-trade.42web.io/index.php' className='blog-head' target='_blank' rel='noopener noreferrer'>
-                  Confarm
+                  ConFarm
                 </a>
                 <p className='blog-paraa'>
-                  Confarm is a solution for hearing-impaired users, converting sign language into speech so communication is easier and more inclusive.
+                  ConFarm is an accessibility-focused solution that translates sign language into speech, helping hearing-impaired users communicate more easily and confidently.
                 </p>
               </div>
             </div>
@@ -35,7 +35,7 @@ function BLOG() {
           <div className='all-blogs'>
             <div className='my-blog'>
               <div className='blog1'>
-                <img src={blog2} alt='blogs' className='img-blog-img' />
+                <img src={blog2} alt='blogs' className='img-blog-img' loading='lazy' decoding='async' />
               </div>
               <div className='blog-desc'>
                 <a href='https://rosineeshop-a3r3gnmfn-gajurosines-projects.vercel.app/#' className='blog-head' target='_blank' rel='noopener noreferrer'>
@@ -43,9 +43,7 @@ function BLOG() {
                 </a>
                 <p className='blog-paraa'>
 
-                 Rosine E-Shop is a modern, responsive e-commerce web 
-                  application built with ReactJS and Vite for the frontend, and designed to integrate with a backend API. It allows users to browse products, search and filter items, add products to a shopping cart, and proceed to 
-                      checkout with a smooth, user-friendly experience.
+                 Rosine E-Shop is a responsive e-commerce application built with React and Vite. It enables customers to browse products, filter by category, manage a cart, and complete checkout through a clear and user-friendly flow.
                 </p>
               </div>
             </div>
@@ -55,16 +53,15 @@ function BLOG() {
           <div className='all-blogs'>
             <div className='my-blog'>
               <div className='blog1'>
-                <img src={blog1} alt='blogs' className='img-blog-img' />
+                <img src={blog1} alt='blogs' className='img-blog-img' loading='lazy' decoding='async' />
               </div>
               <div className='blog-desc'>
                 <a href='https://planner-0gyh.onrender.com/' className='blog-head' target='_blank' rel='noopener noreferrer'>
-                  Smartchatbot
+                  Daily Life Planner
                 </a>
                 <p className='blog-paraa'>
-                Daily Life Planner is a web-based application built with Flask that 
-                helps users organize their daily activities efficiently. Users can 
-                input their wake-up time, study hours, travel time, and tasks for the day,              </p>
+                Daily Life Planner is a Flask-based productivity app that helps users organize schedules, set priorities, and manage daily tasks with a simple and practical interface.
+                </p>
               </div>
             </div>
           </div>

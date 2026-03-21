@@ -9,16 +9,16 @@ function EDUCATION(props) {
         <div className='edu-content'>
             <div className='myExperience'>
                 <div className='EX-content'>
-                    <h1 className='years'> PRIMARY, O 'LEVEL  AND  A 'LEVEL</h1>
-                    <p className='para-exp'>My EDUCATION</p>
+                    <h1 className='years'>Academic Background</h1>
+                    <p className='para-exp'>Education</p>
                 </div>
                 <div className='my-experience'>
                     <div className='develop-img'>
-                        <img src={codes} alt='devolop experience' className='img_devops' />
+                        <img src={codes} alt='devolop experience' className='img_devops' loading='lazy' decoding='async' />
                     </div>
                     <div className='exp-desc'>
                         <h2 className='tit-exp'>2008-2016</h2>
-                        <p className='exp-develop'>Nursery & Primary school</p>
+                        <p className='exp-develop'>Primary Education</p>
                         <p className='exp-develop'>Ecole Les Petit Prince</p>
                     </div>
                     <Link to="/contact" className='contactme1'>Contact</Link>
@@ -26,24 +26,24 @@ function EDUCATION(props) {
 
                 <div className='my-experience'>
                     <div className='develop-img'>
-                        <img src={scie} alt='devolop experience' className='img_devops' />
+                        <img src={scie} alt='devolop experience' className='img_devops' loading='lazy' decoding='async' />
                     </div>
                     <div className='exp-desc'>
                         <h2 className='tit-exp'>2017-2020</h2>
-                        <p className='exp-develop'>O' LEVEL</p>
-                        <p className='exp-develop'>College Du Christ Roi , Nyanza</p>
+                        <p className='exp-develop'>Ordinary Level (O-Level)</p>
+                        <p className='exp-develop'>College du Christ Roi, Nyanza</p>
                     </div>
                     <Link to="/contact" className='contactme1'>Contact</Link>
                 </div>
 
                 <div className='my-experience'>
                     <div className='develop-img'>
-                        <img src={robot} alt='devolop experience' className='img_devops' />
+                        <img src={robot} alt='devolop experience' className='img_devops' loading='lazy' decoding='async' />
                     </div>
                     <div className='exp-desc'>
                         <h2 className='tit-exp'>2021-2024</h2>
-                        <p className='exp-develop'>A' LEVEL</p>
-                        <p className='exp-develop'>Rwanda  Coding Academy</p>
+                        <p className='exp-develop'>Advanced Level (A-Level) - Software Studies</p>
+                        <p className='exp-develop'>Rwanda Coding Academy</p>
                     </div>
                     <Link to="/contact" className='contactme1'>Contact</Link>
                 </div>

@@ -7,7 +7,7 @@ function RESUME() {
       <div className='resume'>
         <div className='resume-dev'>
           <h1 className='years'>4+ Years of Experience</h1>
-          <p className='para-exp'>My RESUME</p>
+          <p className='para-exp'>Resume</p>
 
           {/* ✅ Embedded PDF viewer */}
           <iframe
